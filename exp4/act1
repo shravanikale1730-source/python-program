@@ -1,0 +1,5 @@
+marks=[78,85,92,98,88,76,95,89]
+average=sum(marks)/len(marks)
+topper=max("marks:",marks)
+print("average marks:",average)
+print("topper marks:",topper)
