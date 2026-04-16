@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 16 17:02:07 2026
+
+@author: shravani kale 
+"""
+student={}
+student["name"]="rahul"
+student["age"]=20
+student["course"]="python"
+print("dictionary after adding elements:")
+print(student)
+#updating a value
+student["age"]=21
+print("\n dictionary after updating a value")
+print(student)
+#deleting a key value pair
+del student ["course"]
+print("\n dictionary after deleting key value pair:")
+print(student)
