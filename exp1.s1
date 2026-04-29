@@ -1,0 +1,15 @@
+Created on Wed Apr 29 07:40:24 2026
+
+@author: User
+"""
+
+# Program to display name, address, and contact number
+
+name = "shravani kale"
+address = "Kolhapur, Maharashtra"
+contact = "9876543210"
+
+print("----- Personal Details -----")
+print("Name:", name)
+print("Address:", address)
+print("Contact Number:", contact)
