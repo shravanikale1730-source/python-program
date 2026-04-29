@@ -1,0 +1,23 @@
+# ATM Withdrawal System with Exception Handling
+
+balance = 5000   # Initial ATM balance
+
+try:
+    print("Current Balance:", balance)
+    amount = int(input("Enter amount to withdraw: "))
+
+    if amount > balance:
+        raise Exception("Insufficient balance!")
+
+    balance -= amount
+    print("Withdrawal Successful!")
+    print("Remaining Balance:", balance)
+
+except ValueError:
+    print("Error: Please enter a valid integer amount.")
+
+except Exception as e:
+    print("Error:", e)
+
+finally:
+    print("Thank you for using the ATM.")
