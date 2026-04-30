@@ -1,0 +1,20 @@
+@author: User
+"""
+
+import streamlit as st
+#Title and header
+sttitle("Simple Streamlit Application")
+stheader("User Input and Display Demo")
+#User input widgets
+name = st.text_input("Enter your name:")
+age = st.number_input("Enter your age:", min_value=1, max value=100)
+color = st.selectbox("Choose your favorite color:",["Red", "'Blue","Green"])
+#Button
+if st.button("Submit")：
+ st.success("Data submitted successfully!")
+ st.write("Name:", name)
+ st.write("Age:", age)
+ st.write("Favorite Color:", color)
+# Display text and markdown
+st.markdown(“### This is a Markdown heading")
+st.text("This is plain text output")
